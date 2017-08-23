@@ -1,0 +1,8 @@
+git add file.txt  
+git commit -m "备注信息"
+git log 
+git status 查看当前版本库状态
+git remote add [connection_name] git@server-name:path/repo-name.git  git remote add github_test git@github.com/TestGit
+git push -u [connection_name] master ：第一次推送到远程服务器用这个
+git push [connection_name] master ：以后推送到远程服务器用这个
+git clone git@github.com:136759790/gitskills.git 从远程机器克隆下来
