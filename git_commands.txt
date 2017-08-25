@@ -28,3 +28,16 @@ git push origin --tags 推送所有的版本号
 git tag -d v0.9 删除版本0.9的编号
 第二步
 git push origin :refs/tags/v0.9
+如何参与其他公共源码开发
+	首先fork
+	clone到本地，修改
+	提交到远程服务器
+	给原作者发送一个pull request
+git remote -v 查看本地远程关联库
+git remote rm origin删除本地远程关联
+git 忽略某些文件
+	在.git同级目录下新增 .gitignore在里边写上规则，add commit 就可以了
+git 设置命令别名
+	git config global alias.st status  status以后打st就可以
+git add和commit往往都是一起的，但是你add后发现问题，怎么办？
+	
