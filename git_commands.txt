@@ -17,3 +17,8 @@ git branch --set-upstream-to=origin/dev dev 指定本地dev分支和远程服务器的连接
 ssh-keygen -t rsa -C "136759790@qq.com" 生成公钥
 git checkout -b dev origin/dev从远程服务器创建分支到本地
 git branch -d dev 删除本地dev分支
+git tag v1.0  在当前版本打标签
+git log --pretty=online --abbrev-commit只打印出commit日志
+git tag v0.9 6224937 在6224937版本打标签
+git show v0.9 查看0.9标签信息
+git tag -a <tagname> -m "init" 打标签的时候加上信息
